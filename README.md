@@ -1,8 +1,15 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is the Invoice Assignment from Aurika Tech.
 
 ## Getting Started
 
-First, run the development server:
+First, Clone the project and Install all the necessary dependencies using:
+```bash
+npm i
+# or
+npm i --force
+```
+
+Then, run the development server:
 
 ```bash
 npm run dev
@@ -16,21 +23,14 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+## Why this version?
 
-To learn more about Next.js, take a look at the following resources:
+First I was building this assignment using the Zoho API, but the API wasn't providing all the data needed in the project, like the seller name, PAN Card Details, GST Details, etc.
+If the API Doesn't provide this data, then we needed to add the database and that would have ruined the whole point of using Zoho's API, cuz if we are using our own database, then why not store all the data there only and why use Zoho API.
+Then I thought of using Invoice Ninja's API, then I got to know that it is only available for PRO or ENTERPRISE plan.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Then, at last, I chose to go with the custom approach, although I'm using react states to store all the data, it is fairly easy to store and Integrate the same thing with the API and our own database.
+Only one thing that I was not able to complete is that "Amount in Words" thing, as I was going out of station on a very urgent basis. But apart from that, I tries implementing everything.
+even that discount feature and all the caltulations as well.
