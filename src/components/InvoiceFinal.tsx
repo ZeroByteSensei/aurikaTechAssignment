@@ -180,7 +180,7 @@ const InvoiceFinal = ({companyLogo, seller_address, billing_address, shipping_ad
             </div>
 
             <div className="w-fit mx-auto mt-6 h-auto bg-green-400 text-black px-6 py-2 rounded-full cursor-pointer">
-                <p onClick={printDocument}>Print</p>
+                <p onClick={printDocument}>Download PDF</p>
             </div>
         </div>
 

@@ -20,7 +20,7 @@ export default function Home() {
             </h1>
 
             <p className="mx-auto mt-4 max-w-xl sm:text-xl/relaxed">
-              A very simple yet powerful template that can be easily linked to your backend to generate invoices on the fly. If you don't have a backend, you can still use this template to generate invoices and save them as PDFs.
+              A very simple yet powerful template that can be easily linked to your backend to generate invoices on the fly. If you don&apos;t have a backend, you can still use this template to generate invoices and save them as PDFs.
             </p>
 
             <div className="mt-8 flex flex-wrap justify-center gap-4">

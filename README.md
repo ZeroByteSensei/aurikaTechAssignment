@@ -34,3 +34,7 @@ Then I thought of using Invoice Ninja's API, then I got to know that it is only 
 Then, at last, I chose to go with the custom approach, although I'm using react states to store all the data, it is fairly easy to store and Integrate the same thing with the API and our own database.
 Only one thing that I was not able to complete is that "Amount in Words" thing, as I was going out of station on a very urgent basis. But apart from that, I tries implementing everything.
 even that discount feature and all the caltulations as well.
+
+## Download PDF button
+The PDF file is not coming out to be very good, but it will do the work. I've not added the types of every single useState as it would've consumed a lot of time.
+If you want, I'll fix all the things once I get back.
